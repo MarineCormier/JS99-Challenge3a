@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Quizz Javascript</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src ="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+         <h1>“Quand on aime on ne compte pas... Ca tombe bien, je suis mauvaise en calcul !” :</h1>
+                     <div id="question1"><p> Combien font 55+55 ? </p>
+
+                     <input type="button" class="button" id = "1a" value ="110" onclick="clik(true, '1a','question1');"> 
+                     <input type="button" class="button" id = "1b" value ="120" onclick="clik(false, '1b','question1');">
+                     <input type="button" class="button" id = "1c" value ="115" onclick="clik(false, '1c','question1');">
+                     </div> 
+
+                     <div id="question2"> <p>Combien font 66+66 ? </p>
+
+                         <input type="button" class="button" id = "2a" value ="121" onclick="clik(false, '2a','question2');"> 
+                         <input type="button" class="button" id = "2b" value ="112" onclick="clik(false, '2b','question2');">
+                         <input type="button" class="button" id = "2c" value ="132" onclick="clik(true, '2c','question2');">
+                      </div>  
+
+                    <div id="question3"><p> Combien font 8*7+5 ? </p>
+                         <input type="button" class="button" id = "3a" value ="57" onclick="clik(false, '3a','question3');"> 
+                         <input type="button" class="button" id = "3b" value ="59" onclick="clik(false, '3b','question3');">
+                         <input type="button" class="button" id = "3c" value ="61" onclick="clik(true, '3c','question3');">
+                      </div> 
+
+                    <div id="question4"><p>Combien font 321+489+832 ?</p>
+                         <input type="button" class="button" id = "4a" value ="1630" onclick="clik(false, '4a','question4');"> 
+                         <input type="button" class="button" id = "4b" value ="1654" onclick="clik(false, '4b','question4');">
+                         <input type="button" class="button" id = "4c" value ="1642" onclick="clik(true, '4c','question4');">
+                      </div> 
+
+                        <div id="question5"><p>Combien font 5²+6² ?</p>
+                         <input type="button" class="button" id = "5a" value ="59" onclick="clik(false, '5a','question5');"> 
+                         <input type="button" class="button" id = "5b" value ="61" onclick="clik(true, '5b','question5');">
+                         <input type="button" class="button" id = "5c" value ="63" onclick="clik(false, '5c','question5');">
+                      </div> 
+
+                        <div id="question6"><p>Combien font 3*(55+66) ?</p>
+                         <input type="button" class="button" id = "6a" value ="373" onclick="clik(false, '6a','question6');"> 
+                         <input type="button" class="button" id = "6b" value ="363" onclick="clik(true, '6b','question6');">
+                         <input type="button" class="button" id = "6c" value ="383" onclick="clik(false, '6c','question6');">
+                      </div> 
+
+                        <div id="question7"><p>Combien font 1212+2121+3131+1313 ?</p>
+                         <input type="button" class="button" id = "7a" value ="7676" onclick="clik(false, '7a','question7');"> 
+                         <input type="button" class="button" id = "7b" value ="7777" onclick="clik(true, '7b','question7');">
+                         <input type="button" class="button" id = "7c" value ="7878" onclick="clik(false, '7c','question7');">
+                      </div> 
+
+                    <div id="question8"><p>Combien font 321+489+832 ?</p>
+                         <input type="button" class="button" id = "8a" value ="1630" onclick="clik(false, '8a','question8');"> 
+                         <input type="button" class="button" id = "8b" value ="1654" onclick="clik(false, '8b','question8');">
+                         <input type="button" class="button" id = "8c" value ="1642" onclick="clik(true, '8c','question8');">
+                      </div> 
+
+                        <div id="question9"><p>Combien font 321+489+832 ?</p>
+                         <input type="button" class="button" id = "8a" value ="1630" onclick="clik(false, '8a','question8');"> 
+                         <input type="button" class="button" id = "8b" value ="1654" onclick="clik(false, '8b','question8');">
+                         <input type="button" class="button" id = "8c" value ="1642" onclick="clik(true, '8c','question8');">
+                      </div> 
+
+        <p>Essais :<div id="essai">0</div></p>
+            <p class ="scOre"> VOTRE SCORE EST DE<div id="score">0</div>/10</p></div>
+            </div>
+        </div>
+</body>
+
+</html>

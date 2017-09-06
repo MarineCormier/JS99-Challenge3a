@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #93B2B2;
+    color: #ffffff;
+}
+
+h1 {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.col-sm-2 {
+	background-color: red;
+}
+
+.container {
+	text-align: center;
+}
+
+#question1, #question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9 {
+	margin-right: 2%;
+	margin-bottom: 1em;
+}
+
+.button {
+	width: 200px;
+  border-radius: 70px;
+  background-color: #B27E5F;
+}
+
+.scOre {
+	display: inline;
+}
+
+#question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9 {
+	visibility:hidden;
+}
+
+.button:hover {
+	background-color: black;
+}
